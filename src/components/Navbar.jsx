@@ -8,6 +8,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
+  FaDiscord,
 } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-scroll";
@@ -22,7 +23,7 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex text-2xl">
+      <ul className=" text-center sm:text-left hidden md:flex text-2xl">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -100,14 +101,14 @@ const Navbar = () => {
       </ul>
 
       {/* social icons */}
-      <div className=" hidden lg:flex flex fixed flex-col top-[35%] left-0">
+      <div className="text-center sm:text-left hidden lg:flex flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="https://www.linkedin.com/in/furkan-emre-akyel-b9999424a/"
+              href="https://discordapp.com/users/252796605009362944/"
               className="w-[160px] h-[60px] flex justify-between items-center w-full text-gray-300"
             >
-              Linkedin <FaLinkedin size={40} />
+              Discord <FaDiscord size={40} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300  bg-[#333333]">
@@ -118,14 +119,7 @@ const Navbar = () => {
               Github <FaGithub size={40} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9d6fc2]">
-            <a
-              href="https://www.instagram.com/ceyrannmuhendisi/"
-              className="w-[160px] h-[60px] flex justify-between items-center w-full text-gray-300"
-            >
-              Instagram <FaInstagram size={40} />
-            </a>
-          </li>
+
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300   bg-blue-400">
             <a
               href="https://twitter.com/emreeakyell"
