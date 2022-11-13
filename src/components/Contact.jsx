@@ -16,8 +16,7 @@ function Contact() {
             Contact
           </p>
           <p className="text-gray-300  py-4 text-2xl">
-            //Submit the form below or shoot me an email -
-            emreeakyel4284@gmail.com
+            //Submit the form below
           </p>
         </div>
         <input
