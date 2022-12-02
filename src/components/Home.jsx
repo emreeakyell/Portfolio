@@ -9,7 +9,7 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-lg">
         <p className="text-pink-600 sm:text-sm xl:text-7xl ">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Vedoo.Dev
+          //Vedoo.Dev//
         </h1>
         <h2 className="xl:text-4xl sm:text-sm font-bold text-[#8892b0]">
           I'm Front-End Developer and EEE
